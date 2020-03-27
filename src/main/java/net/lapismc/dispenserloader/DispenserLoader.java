@@ -1,14 +1,15 @@
 package net.lapismc.dispenserloader;
 
+import net.lapismc.dispenserloader.containers.DispenserGroup;
 import net.lapismc.lapiscore.LapisCorePlugin;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public final class DispenserLoader extends LapisCorePlugin {
 
+    private List<DispenserGroup> groups = new ArrayList<>();
     //Command to set block for leading from, chest or dispenser, and a command to force the load
-
-    //Needs groups, each group will have one item to load from and many to load to
-
-    //Timed loading e.g. reload every hour
 
     @Override
     public void onEnable() {
