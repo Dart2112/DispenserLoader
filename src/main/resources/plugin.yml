@@ -1,0 +1,6 @@
+name: DispenserLoader
+version: ${project.version}
+main: net.lapismc.dispenserloader.DispenserLoader
+api-version: 1.13
+authors: [Dart2112]
+description: Auto reload dispensers on command or on a timer or both
